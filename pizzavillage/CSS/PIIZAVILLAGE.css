@@ -1,0 +1,62 @@
+body {
+    background-image: url(../IMAGE/pizza.jpg);
+        background-repeat:no-repeat;
+                background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+h1{
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: cornflowerblue;
+        text-shadow: 3px 3px 5px yellow;
+}
+
+.Laform {
+    font: 20px cursive;
+	color: white;
+    margin-top: 30px;
+    margin-left: 10px;
+    
+}
+#banner  {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+margin: 100px;
+padding: 0;
+font-family: cursive sans-serif;
+
+
+bottom: 0;
+color: white;
+text-shadow: 0 1px 0 #666;
+text-align: center;
+
+}
+
+#top_links li {
+	display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: 14px cursive;
+    color: white;
+    -webkit-transition: -webkit-transform 2s, opacity 2s;
+
+}
+#top_links:hover li {
+    -webkit-transform: rotate(360deg);
+    opacity: 1;
+	
+}
+
+#top_links {
+    position: absolute;
+    top: 100px;
+
+}
